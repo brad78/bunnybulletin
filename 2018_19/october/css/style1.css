@@ -1,28 +1,109 @@
+* {
+  box-sizing: border-box
+}
+
 body { 
-  margin:0px;
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.fc {
-  margin: 10px;
-  padding: 20px;
-  background-color: lightgrey;
-  border-radius: 10px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.fc > * {
-  flex: 1;
-}
-
-.fc header, 
-.fc footer {
-  flex: 0 1 100vw;
-  margin: 0px;
+header,
+footer {
   background-color: red;
+  width: 100vw;
+  max-width: 100%;
+  color: white;
+  border: solid black;
+  border-radius: 10px;
+}
+header {
+  text-align: center;  
+}
+
+.fullpage {
+  display: flex; 
+}
+
+.pagenav {
+  padding: 5px;
+  width: 180px;
+  background-color: red;
+  color: white;
+  border: solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.page > article {
+  background-color: lightgrey;
+  border: solid grey;
+  border-radius: 10px;
+  padding: 10px;  
+  width: calc(50vw - 93px); 
+}
+
+#principal {
+  width: calc(100vw - 184px);
+}
+
+#letter {
+  width: calc(100vw - 184px);
+}
+
+.pic {
+  width: 150px;
+  padding: 
 }
 
 .logo {
-  max-height: 20vh;
+  height: 15vh; 
+  width: 15vh;
+  border-radius: 0px; 
 }
+
+#halloween {
+  width: calc(100vw - 184px);  
+}
+
+#halloween ol {  
+  padding: 20px;
+}
+
+.boo {
+  padding: 5px 20px;
+}
+
+
+b {
+  text-decoration: underline;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: solid ;
+  padding: 5px;
+  
+}
+td {
+  border: solid grey;
+  padding: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
