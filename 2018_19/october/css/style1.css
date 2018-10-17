@@ -1,0 +1,28 @@
+body { 
+  margin:0px;
+  box-sizing: border-box;
+}
+
+.fc {
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.fc > * {
+  flex: 1;
+}
+
+.fc header, 
+.fc footer {
+  flex: 0 1 100vw;
+  margin: 0px;
+  background-color: red;
+}
+
+.logo {
+  max-height: 20vh;
+}

@@ -1,0 +1,100 @@
+header {
+  position: relative;
+  left: 10em;
+}
+
+header h1 {
+  display: inline;
+  padding: 20px;
+  
+}  
+
+header nav { 
+ color: white;
+ background-color: black;
+ width: 140px;
+ position: absolute;
+ top: .5em;
+ left: -10em;
+ border: 5px solid black;
+}
+
+img {
+  width: 100px;
+  border: 1px solid blue;
+}
+
+aside h2 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+aside h3 {
+  margin: 5px 0 0 0;
+  font-size: 17px;
+}
+
+aside h4 {
+  margin: 5px 0 0 0;
+  font-size: 15px;
+}
+
+aside p {
+  margin: 0px;
+}
+
+#business {
+  background-color: red;
+  position: absolute;
+
+  width: 150px;
+}
+
+#contents {
+  background-color: red;
+  position: absolute; 
+  right: 10px;
+  width: 150px;
+  height: 911px;
+}
+
+#pg1 {
+  position: relative;
+  height: 911px;
+  width: 70%;
+  left: 10em;
+ 
+}
+
+#principal h2 {
+  margin: 10px 0;
+}
+
+#principal p {
+  margin: 5;
+}
+
+table {
+  position: relative;
+  left: 150px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 800px;
+}
+
+td {
+  padding: 5px 10px;
+  border: 1px solid;
+  
+}
+tr :hover{ 
+  background-color: lightcoral;
+tr {
+  text-align: left;
+  border: 1px solid;
+}
+
+th {
+  padding-left: 10px;
+  height: 40px;
+  }
